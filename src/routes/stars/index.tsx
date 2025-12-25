@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Send, User, Coins, Stars, Star } from 'lucide-react'
+import { Send, User, Star } from 'lucide-react'
 
 export const Route = createFileRoute('/stars/')({
   component: RouteComponent,
